@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-protocol}",
+            "name": "Debug swift-protocol",
+            "target": "swift-protocol",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-protocol"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-protocol}",
+            "name": "Release swift-protocol",
+            "target": "swift-protocol",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-protocol"
+        }
+    ]
+}

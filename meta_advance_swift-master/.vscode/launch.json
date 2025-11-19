@@ -1,0 +1,104 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-enumeration",
+            "name": "Debug swift-enumeration (m1/swift-enumeration)",
+            "target": "swift-enumeration",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-enumeration (m1/swift-enumeration)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-enumeration",
+            "name": "Release swift-enumeration (m1/swift-enumeration)",
+            "target": "swift-enumeration",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-enumeration (m1/swift-enumeration)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-associated-values",
+            "name": "Debug swift-associated-values (m1/swift-associated-values)",
+            "target": "swift-associated-values",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-associated-values (m1/swift-associated-values)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-associated-values",
+            "name": "Release swift-associated-values (m1/swift-associated-values)",
+            "target": "swift-associated-values",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-associated-values (m1/swift-associated-values)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m2/swift-delegate",
+            "name": "Debug swift-delegate (m2/swift-delegate)",
+            "target": "swift-delegate",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-delegate (m2/swift-delegate)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m2/swift-delegate",
+            "name": "Release swift-delegate (m2/swift-delegate)",
+            "target": "swift-delegate",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-delegate (m2/swift-delegate)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-exercise",
+            "name": "Debug swift-exercise (m1/swift-exercise)",
+            "target": "swift-exercise",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-exercise (m1/swift-exercise)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m1/swift-exercise",
+            "name": "Release swift-exercise (m1/swift-exercise)",
+            "target": "swift-exercise",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-exercise (m1/swift-exercise)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m3/swift-map-filter-reduce",
+            "name": "Debug swift-map-filter-reduce (m3/swift-map-filter-reduce)",
+            "target": "swift-map-filter-reduce",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-map-filter-reduce (m3/swift-map-filter-reduce)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:meta_advance_swift}/m3/swift-map-filter-reduce",
+            "name": "Release swift-map-filter-reduce (m3/swift-map-filter-reduce)",
+            "target": "swift-map-filter-reduce",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-map-filter-reduce (m3/swift-map-filter-reduce)"
+        }
+    ]
+}

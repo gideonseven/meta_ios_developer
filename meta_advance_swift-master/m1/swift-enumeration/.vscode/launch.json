@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-enumeration}",
+            "name": "Debug swift-enumeration",
+            "target": "swift-enumeration",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-enumeration"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-enumeration}",
+            "name": "Release swift-enumeration",
+            "target": "swift-enumeration",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-enumeration"
+        }
+    ]
+}

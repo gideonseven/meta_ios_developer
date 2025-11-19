@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-set}",
+            "name": "Debug swift-set",
+            "target": "swift-set",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-set"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-set}",
+            "name": "Release swift-set",
+            "target": "swift-set",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-set"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-associated-values}",
+            "name": "Debug swift-associated-values",
+            "target": "swift-associated-values",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-associated-values"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-associated-values}",
+            "name": "Release swift-associated-values",
+            "target": "swift-associated-values",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-associated-values"
+        }
+    ]
+}
