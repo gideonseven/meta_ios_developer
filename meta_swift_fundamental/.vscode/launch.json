@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-fundamental}",
+            "name": "Debug swift-fundamental",
+            "program": "${workspaceFolder:swift-fundamental}/.build/debug/swift-fundamental",
+            "preLaunchTask": "swift: Build Debug swift-fundamental"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-fundamental}",
+            "name": "Release swift-fundamental",
+            "program": "${workspaceFolder:swift-fundamental}/.build/release/swift-fundamental",
+            "preLaunchTask": "swift: Build Release swift-fundamental"
+        }
+    ]
+}
