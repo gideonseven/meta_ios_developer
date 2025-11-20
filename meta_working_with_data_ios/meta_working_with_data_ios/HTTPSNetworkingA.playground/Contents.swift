@@ -1,11 +1,8 @@
-//
-//  HTTPSNetworking.swift
-//  meta_working_with_data_ios
-//
-//  Created by gideon tobing on 20/11/2025.
-//
-
+import UIKit
 import Foundation
+
+var greeting = "Hello, playground"
+
 
 let menuAddress = "https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/littleLemonSimpleMenu.json"
 
@@ -19,4 +16,11 @@ let request = URLRequest(url: menuURL)
 
 let task = URLSession.shared.dataTask(with: menuURL){
     data, response, error in
+    if let data  = data,
+       let responseString = String(data: data,
+                                   encoding: .utf8){
+        print(responseString)
+    }
 }
+
+task.resume()
