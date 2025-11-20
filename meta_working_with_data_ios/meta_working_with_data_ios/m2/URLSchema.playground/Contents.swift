@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 var greeting = "Hello, playground"
 
@@ -10,12 +11,13 @@ components.host = "google.com"
 components.path = "/images"
 
 //URL SessionDownloadTask
-func downloadTask(
-    with request: URLRequest,
-    completionHandler: @escaping @Sendable (URL?, URLResponse?, Error?) -> Void
-) -> URLSessionDownloadTask
+//func downloadTask(
+//    with request: URLRequest,
+//    completionHandler: @escaping @Sendable (URL?, URLResponse?, Error?) -> Void
+//) -> URLSessionDownloadTask
 
-
-
-downloadTask.resume()
-downloadTask.cancel()
+//
+//
+//downloadTask.resume()
+//downloadTask.cancel()
+URLSessionDataTask
